@@ -59,7 +59,6 @@ RSpec.describe Shelter, type: :model do
         expect(Shelter.pending_status).to eq([@shelter_1.name])
       end 
     end 
-
   end
 
   describe 'instance methods' do
